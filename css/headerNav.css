@@ -5,7 +5,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0.6rem;
+    padding: 1rem;
 }
 nav div#LogoContainer{
     display: flex;
@@ -49,6 +49,7 @@ header{
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    padding: 2rem;
 }
 header div#headerMainImg{
     width: 48%;

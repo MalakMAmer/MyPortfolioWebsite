@@ -1,0 +1,116 @@
+
+/* main{
+    
+} */
+main section#AboutSec{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--LightPink);
+    padding: 8rem;
+}
+main section#AboutSec h2{
+    text-align: center;
+    padding: 1rem;
+}
+main section#AboutSec p{
+    text-align: center;
+    width: 50%;
+    min-width: 20rem;
+}
+
+
+main section#Skills{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    color: white;
+    padding: 10rem 6rem;
+}
+main section#Skills h2{
+    text-align: center;
+    color: black;
+    padding: 1rem;
+}
+main section#Skills div#skillsInnerContainer{
+    background-color: var(--DarkGrayeshPink);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: start;
+    width: 70%;
+    min-width: 22rem;
+    padding: 2rem;
+    border-radius: 1em;
+}
+main section#Skills div#skillsInnerContainer div.skillsListItems{
+    width: 33%;
+    min-width: 15rem;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0.8rem;
+}
+main section#Skills div#skillsInnerContainer div.skillsListItems div.skillsItemLeft{
+    background-color: #ffffff40;
+    padding: 0.5rem;
+    margin-right: 1rem;
+    border-radius: 100%;
+    width: 20%;
+    min-width: 2rem;
+}
+main section#Skills div#skillsInnerContainer div.skillsListItems div.skillsItemLeft img{
+    width: 2.8rem;
+}
+main section#Skills div#skillsInnerContainer div.skillsListItems div.skillsItemLeft img.biggerWidth{
+    width: 4.5rem;
+}
+main section#Skills div#skillsInnerContainer div.skillsListItems .skillsItemRight{
+    width: 80%;
+    min-width: 10rem;
+}
+main section#Skills div#skillsInnerContainer div.skillsListItems .skillsItemRight h4{ 
+    padding: 0.4rem 0;
+}
+main section#Skills div#skillsInnerContainer div.skillsListItems .skillsItemRight p{
+    font-size: 0.8rem;
+    color: var(--white-text-muted);
+}
+
+
+
+
+main section#services{
+    background-color: var(--LightPink);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem;
+}
+main section#services h2{
+    padding-bottom: 3rem;
+}
+main section#services div#servicesOuterContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+main section#services div#servicesOuterContainer div.servicesItemsContainer{
+    width: 25%;
+    min-width: 15rem;
+}
+main section#services div#servicesOuterContainer div.servicesItemsContainer h3{
+
+}
+main section#services div#servicesOuterContainer div.servicesItemsContainer p{
+
+}
+
+
+main section#projects{
+
+}

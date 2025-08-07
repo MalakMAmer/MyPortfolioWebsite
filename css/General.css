@@ -6,7 +6,7 @@
     font-family: serif;
 }
 :root{
-    --LightPink: #E6BCD5;
+    --LightPink: #E6BCD590;
     --lightGrayeshPink: #BA99AD;
     --DarkGrayeshPink: #54454E;
     --BrownPink: #78626F;
@@ -45,7 +45,7 @@ h2{
     font-size: clamp(2.5rem, 3vw, 3.5rem);
 }
 h3{
-    font-size: clamp(2rem, 3vw, 3rem);
+    font-size: clamp(2rem, 2.5vw, 2.5rem);
 }
 h4{
     font-size: clamp(1.5rem, 2.5vw, 2.5rem);
