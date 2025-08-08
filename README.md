@@ -24,8 +24,8 @@ Styled using HTML5 and CSS3
 <pre>
   HTML5
   CSS3
+  responsivce Layout (using media queries)
   No frameworks or libraries or js (might add later)
-  Not responsivce(yet)
 </pre>
 
 ## Pages Links
