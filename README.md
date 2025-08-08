@@ -1,8 +1,7 @@
 # MyPortfolioWebsite
-<pre>
-A Resume website about me and my skills
+A Resume website about me and my skills<br>
 used a minamalistic design
-</pre>
+  
 ## Features
 Styled using HTML5 and CSS3
 <br>Includes product images, icons, and soft pastel visuals
