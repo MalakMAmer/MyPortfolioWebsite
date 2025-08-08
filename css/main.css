@@ -19,7 +19,12 @@ main section#AboutSec p{
     width: 50%;
     min-width: 20rem;
 }
-
+/* About section media queries */
+@media (max-width: 600px){
+    main section#AboutSec h2{
+        padding: 0.2rem;
+    }
+}
 
 main section#Skills{
     display: flex;
@@ -85,7 +90,12 @@ main section#Skills div#skillsInnerContainer div.skillsListItems .skillsItemRigh
     font-size: 0.8rem;
     color: var(--white-text-muted);
 }
-
+/* Skills section media queries */
+@media (max-width: 600px){
+    main section#Skills{
+        padding: 3rem 0.5rem;
+    }
+}
 
 
 
@@ -109,7 +119,7 @@ main section#services div#servicesOuterContainer{
 }
 main section#services div#servicesOuterContainer div.servicesItemsContainer{
     width: 25%;
-    min-width: 15rem;
+    min-width: 20rem;
     padding: 3rem;
     background-color: var(--white-text-muted);
     border: 2px solid white;
@@ -137,6 +147,7 @@ main section#projects{
 }
 main section#projects h2{
     padding: 1rem;
+    text-align: center;
 }
 main section#projects #proectSecItemsContainer{
     display: flex;

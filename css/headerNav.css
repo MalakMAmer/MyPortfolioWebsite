@@ -3,6 +3,7 @@
 
 nav{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     padding: 1rem;
@@ -42,6 +43,20 @@ nav ul#navListContainer li a:hover{
     color: white;
 }
 
+/* nav media queries */
+@media (max-width: 600px){
+    nav{
+        justify-content: center;
+    }
+    nav ul#navListContainer{
+        justify-content: center;
+        padding: 0;
+    }
+    nav ul#navListContainer li{
+        padding: 0 0.6rem;
+        font-size: 0.8rem;
+    }
+}
 
 /* header Styles */
 
@@ -54,10 +69,11 @@ header{
 }
 header div#headerMainImg{
     width: 48%;
+    min-width: 17rem;
 }
 header div#headerMainImg img{
     width: 40rem;
-    min-width: 20rem;
+    min-width: 17rem;
 }
 header div#headerText{
     width: 48%;
@@ -70,4 +86,11 @@ header div#headerText h1{
 header div#headerText h2{
     color: var(--balck-text-muted);
     text-align: center;
+}
+
+/* header media queries */
+@media (max-width: 600px){
+    header{
+        padding-top: 0;
+    }
 }
