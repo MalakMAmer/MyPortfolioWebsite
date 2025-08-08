@@ -44,6 +44,7 @@ main section#Skills div#skillsInnerContainer{
     min-width: 22rem;
     padding: 2rem;
     border-radius: 1em;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 }
 main section#Skills div#skillsInnerContainer div.skillsListItems{
     width: 33%;
@@ -52,6 +53,12 @@ main section#Skills div#skillsInnerContainer div.skillsListItems{
     justify-content: center;
     align-items: flex-start;
     padding: 0.8rem;
+    transition: opacity 300ms ease;
+    transition-delay: 30ms;
+}
+main section#Skills div#skillsInnerContainer div.skillsListItems:hover{
+    opacity: 0.75;
+    cursor: pointer;
 }
 main section#Skills div#skillsInnerContainer div.skillsListItems div.skillsItemLeft{
     background-color: #ffffff40;
@@ -98,19 +105,66 @@ main section#services div#servicesOuterContainer{
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 }
 main section#services div#servicesOuterContainer div.servicesItemsContainer{
     width: 25%;
     min-width: 15rem;
+    padding: 3rem;
+    background-color: var(--white-text-muted);
+    border: 2px solid white;
+    transition: opacity 200ms ease;
+    transition-delay: 30ms;
+}
+main section#services div#servicesOuterContainer div.servicesItemsContainer:hover{
+    opacity: 0.85;
+    cursor: pointer;
 }
 main section#services div#servicesOuterContainer div.servicesItemsContainer h3{
-
+    padding: 1rem 0;
 }
 main section#services div#servicesOuterContainer div.servicesItemsContainer p{
-
+    color: #000;
 }
 
 
 main section#projects{
-
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 8rem;
+}
+main section#projects h2{
+    padding: 1rem;
+}
+main section#projects #proectSecItemsContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+main section#projects #proectSecItemsContainer .projectsItems{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    min-width: 15rem;
+    padding: 1rem;
+    margin: 0.6rem;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+main section#projects #proectSecItemsContainer .projectsItems h4{
+    text-align: center;
+    padding: 0.6rem;
+}
+main section#projects #proectSecItemsContainer .projectsItems a{
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(0, 0, 0); 
+    transition: opacity 200ms ease;
+    background-color: var(--LightPink);
+    padding: 0.6rem 1rem;
+    border-radius: 1.5em;
 }

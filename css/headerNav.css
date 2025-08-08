@@ -13,13 +13,14 @@ nav div#LogoContainer{
     align-items: center;
 }
 nav div#LogoContainer img{
-    width: 4rem;
+    width: 5rem;
     padding: 4px;
 }
 nav div#LogoContainer p{
-    color: var(--LightPink);
+    color: #E6BCD5;
     padding: 4px;
     margin: 0;
+    font-size: 1.2rem;
 }
 nav ul#navListContainer{
     display: flex;

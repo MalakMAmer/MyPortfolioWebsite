@@ -1,0 +1,34 @@
+
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 5rem;
+}
+footer div#innerFooterDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+footer div#innerFooterDiv h2{
+    padding: 0.4rem;
+}
+/* footer div#innerFooterDiv p{
+
+} */
+footer div#innerFooterDiv div#contactContainer{
+    display: flex;
+    justify-content: center;
+}
+footer div#innerFooterDiv div#contactContainer a{
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(0, 0, 0); 
+    transition: opacity 200ms ease;
+}
+footer div#innerFooterDiv div#contactContainer a i{
+    font-size: 2rem;
+    padding: 0.6rem;
+}
